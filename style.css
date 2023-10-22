@@ -1,0 +1,297 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+}
+
+
+body{
+   background-color: rgb(202, 170, 121);
+   
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 110px;
+    box-shadow: 1px 0px 10px; color:black;
+    
+
+}
+
+
+nav header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+nav header a{
+    font-size: 35px;
+    color: black;
+
+}
+
+nav header h1{
+    color: rgb(37, 29, 1);;
+}
+ na header h1 span{
+    color: grey;
+ }
+
+ nav ul{
+   display: flex;
+   gap: 10px;
+ }
+
+ nav ul li a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    transition:0.5s;
+    
+ }
+
+ nav ul li a:hover{
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+    transition: 0.5s;
+ }
+
+ nav ıl{
+    display: flex;
+    gap: 10px;
+
+ }
+
+ /* içerik alanı başlangıç*/
+
+
+ /*  
+ .coffee-content{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    justify-content: center;
+    height: 80vh;
+    color: black;
+    position: relative;
+
+     
+ }
+ */
+ .coffee-content{
+   display: flex;
+   align-items: center;
+   margin-top: 50px;
+   background-color: rgb(202, 170, 121);
+   border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   position: relative;
+   
+ }
+
+ .coffee-content .coffee-section{
+    text-align: center;
+    flex:1;
+       
+ }
+
+ .coffee-content .image{
+    flex: 1;
+    display: flex;
+    justify-content:center;
+    
+    
+      
+ }
+
+ .coffee-content .coffee-section h2{
+    color: rgb(226, 167, 79);
+    background-color:rgb(20, 12, 1) ;
+    top: -20px;
+    padding: 10px 20px;
+    border-top-right-radius: 20px;
+    width: 50%;
+    position: absolute;
+    font-size:large;
+   
+ }
+
+ .coffee-content .coffee-section h2 span{
+    color: rgb(226, 167, 79);
+    
+    
+ }
+
+ .coffee-content .coffee-section .p{
+    color: black;
+    margin: 20px 0;
+    
+ }
+
+ .coffee-content .coffee-section button{
+    border: none;
+    padding: 10px 20px;
+    background-color: rgb(37, 29, 1);
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+ }
+
+ .coffee-content .coffee-section button:hover{
+    opacity: 0.5;
+    transition: 0.5sn;
+ }
+
+
+  /*içerik alanı bitiş*/
+
+
+  /*info alanı başlangıç*/
+  .info-content {
+   display:flex;
+   align-items:center;
+   margin-top: 50px;
+   background-color: rgb(202, 170, 121);
+   border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   position: relative;
+   
+
+  }
+
+  .info-content .info-sec {
+   text-align:center;
+   flex: 1;
+   
+  }
+
+  .image-sec{
+   flex: 1;
+   display: flex;
+   justify-content: center;
+  }
+
+  .info-content .info-sec h3{
+   background-color: rgb(20, 12, 1);
+   padding: 10px 20px;
+   border-top-right-radius: 20px;
+   position: absolute;
+   top: -20px;
+   width: 50%;
+   color: rgb(226, 167, 79);
+  }
+
+  .info-content .info-sec p{
+   color: black;
+   margin: 20px 0;
+
+  }
+
+  .info-content .info-sec button{
+   border: none;
+   padding: 10px 20px;
+   border-radius: 5px;
+   background-color: rgb(37, 29, 1);
+   color: white;
+   cursor: pointer;
+  }
+
+  .info-content .info-sec button:hover {
+   transform: scale(0.9);
+   opacity: 0.5;
+   transition: 0.5s;
+  }
+
+  /*info alanı bitiş*/
+
+  /*!card container başlangıç*/
+
+  .card-container{
+   margin-top: 50px;
+   text-align: center;
+  }
+
+  .card-container h3{
+   margin-bottom: 20px;
+   font-size: 30px;
+   color: rgb(53, 27, 3);
+   border-bottom: 1px solid;
+   border-radius: 50%;
+
+  }
+
+  .card-content{
+   display: flex;
+   justify-content: center;
+  }
+
+  .card-content .card{
+   margin: 20px;
+   box-shadow:rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+   border-radius: 10px;
+   cursor: pointer;
+
+  }
+
+  .card-content .card:hover{
+   transform: translateX(5px);
+   transition: 0.5s;
+ }
+
+ .card-content .card-button{
+   border: none;
+   padding: 3px 7px;
+   background-color: white;
+   border-radius: 5px;
+   margin-bottom: 10px;
+   color: black;
+ }
+  /*!card container bitiş*/
+
+  /*footer başlangıç*/
+   footer{
+      padding: 20px;
+      margin-top: 100px;
+      border-top: 1px solid rgb(43, 31, 4);
+   }
+
+.footer-start{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   place-items: center;
+
+}
+
+footer .footer-start .footer-area{
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+
+}
+
+footer .footer-start .footer-area a{
+text-decoration: none;
+color: rgb(77, 45, 3);
+}
+
+footer .bottom{
+   text-align: center;
+   margin-top: 30px;
+   border-top: 1px solid rgb(43, 31, 4);
+   padding: 20px;
+}
+
+  /*footer bitiş*/
+
+
+  @media(max-width: 800px){
+    .coffee-content{
+        flex-direction: column-reverse;
+    }
+    
+  }
